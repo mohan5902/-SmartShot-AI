@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartShot AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🏏 SmartShot AI</h1>
+    <p>AI Cricket Shot Recommendation Bot</p>
+
+    <select id="bowler">
+        <option>Fast</option>
+        <option>Spin</option>
+    </select>
+
+    <select id="pitch">
+        <option>Dry</option>
+        <option>Green</option>
+        <option>Dusty</option>
+    </select>
+
+    <select id="length">
+        <option>Short</option>
+        <option>Good</option>
+        <option>Yorker</option>
+    </select>
+
+    <select id="situation">
+        <option>Powerplay</option>
+        <option>Middle Overs</option>
+        <option>Death Overs</option>
+    </select>
+
+    <button onclick="getRecommendation()">Get Shot Recommendation</button>
+
+    <div class="output" id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
